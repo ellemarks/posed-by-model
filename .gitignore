@@ -1,0 +1,8 @@
+corpus/**
+!corpus/README.md
+ai-identification/**
+!ai-identification/README.md
+one-nation/**
+!one-nation/README.md
+cited-examples/**
+!cited-examples/README.md
