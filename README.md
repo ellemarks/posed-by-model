@@ -2,6 +2,8 @@
 
 Honours Thesis 2026
 
+Note - This repo lacks the media files - please see either the OneDrive or the Proton Drive link for the full corpus data
+
 | Structure | |
 |---|---|
 | ai-identification/ | posts checked for AI, sorted by verdict + detector results |
