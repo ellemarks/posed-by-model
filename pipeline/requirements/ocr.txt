@@ -1,0 +1,7 @@
+# python 3.12, nvidia gpu (cuda 12)
+# paddlepaddle-gpu from paddlepaddle.org.cn/install
+paddlepaddle-gpu==3.3.0
+paddleocr==3.7.0
+paddlex==3.7.2
+Pillow==12.3.0
+numpy==2.3.5

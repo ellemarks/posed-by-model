@@ -1,0 +1,4 @@
+# python 3.12
+# videos use vdf-cli (videoduplicatefinder), installed natively
+imagededup==0.3.3.post2
+Pillow==12.3.0

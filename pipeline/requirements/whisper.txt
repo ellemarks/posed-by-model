@@ -1,0 +1,6 @@
+# python 3.12, nvidia gpu, needs ffmpeg
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+av==17.1.0
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.27.0.42

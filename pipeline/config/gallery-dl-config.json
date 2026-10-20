@@ -1,0 +1,28 @@
+{
+    "#": "gallery-dl configuration file",
+  
+    "#": "full documentation at",
+    "#": "https://gdl-org.github.io/docs/configuration.html",
+
+    "postprocessor":
+    {
+        "#": "write 'content' metadata into separate files",
+        "content":
+        {
+            "name" : "metadata",
+            "filename": "{date} {date:%H:%M:%S}.txt",
+            "mode" : "custom",
+            "format": "{content|description}\n"
+        }
+    },
+
+    "extractor": {
+        "instagram": {
+            "postprocessors": ["content"],
+            "filename": "{date:%Y-%m-%d %H:%M:%S}_{num}.{extension}",
+            "include": "posts,reels,info",
+            "cookies": ["chrome"],
+            "sleep-request": "6.0-12.0"
+        }
+    }
+}
